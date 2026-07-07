@@ -22,7 +22,7 @@
 
 **[kodiakthebear.github.io/impact-velocity](https://kodiakthebear.github.io/impact-velocity/)** — or download `index.html` and open it in Chrome/Firefox. Pointer lock needs a real browser tab (not an embedded preview).
 
-## Features
+## 📋 Features
 
 - **Movement-first gunplay** — sprint, momentum slides, slide-hops, air-strafing, dash, and a physics grapple. Speed is the meta.
 - **The killstreak ladder**
