@@ -38,17 +38,17 @@
 
   | Slot | Weapon | Character |
   |------|--------|-----------|
-  | SMG | **MP-X NOVA** | sci-fi MP5, cyan glow strips, 920 rpm |
+  | SMG | **MP-X NOVA** | a sci-fi version of an MP5 at 920 rpm |
   | AR | **MASADA AR** | ACR silhouette, the all-rounder |
-  | Shotgun | **W-1887** | lever-action, full Terminator 2 flip-cock after every shot |
-  | Sniper | **BARRETT .50** | huge, loud, one-tap to the chest |
-  | Sidearm | **P-45** + knife | always with you |
+  | Shotgun | **W-1887** | lever-action shotgun with Terminator 2 flip-cock after every shot |
+  | Sniper | **BARRETT .50** | the hammer for when all you need is a fist - one-shot kills to the head and upper torso |
+  | Sidearm | **P-45** + knife | always with you - your last line of defense |
 
-- **Skull-faced military bots** with glowing eyes, articulated limbs, multi-part ragdolls, bone-chip gore and the actual Wilhelm scream.
+- **Skull-faced military bots** with glowing eyes, articulated limbs, multi-part ragdolls, bone-chip gore. Wilhelm Scream upon death.
 - **Ammo economy** — 30/250 pools, corpses drop crates: **+15** reserve from enemies, **+30** from teammates.
 - **Reload theatre** — AR/SMG reloads flick-toss the empty mag (it bounces on the floor), flip the fresh one in-hand, and jam it home.
-- **All audio is synthesized at runtime** — layered gunshots through convolution reverb, a 90s-arcade announcer ("you just earned Rain Hell"), and an original dark synthwave loop in the menus only. Zero audio files shipped.
-- **Modes** — FFA vs bots, TDM vs bots. Online netcode is on the roadmap.
+- **All audio is synthesised at runtime** — layered gunshots through convolution reverb, a 90s-arcade announcer ("you just earned Rain Hell"), and an original dark synthwave loop in the menus only. Zero audio files shipped. This will change in future updates.
+- **Modes** — FFA vs bots, TDM vs bots. Online netcode is on the roadmap. Survival mode next.
 
 ## 🕹️ Controls
 
