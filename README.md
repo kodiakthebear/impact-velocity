@@ -22,7 +22,7 @@
 
 **[kodiakthebear.github.io/impact-velocity](https://kodiakthebear.github.io/impact-velocity/)** — or download `index.html` and open it in Chrome/Firefox. Pointer lock needs a real browser tab (not an embedded preview).
 
-## ✨ What's in the box
+## Features
 
 - **Movement-first gunplay** — sprint, momentum slides, slide-hops, air-strafing, dash, and a physics grapple. Speed is the meta.
 - **The killstreak ladder**
@@ -67,7 +67,7 @@
 One file. `index.html` contains the renderer, physics, AI, audio engine and UI — ~1,800 lines of vanilla JS on top of [three.js r128](https://threejs.org/) from CDN.
 
 - **Rendering** — PBR voxel art: `MeshStandardMaterial`, ACES filmic tone mapping, soft shadow-mapped moonlight, emissive neon, procedural skyline and star field.
-- **Physics** — swept AABB, axis-separated resolution requiring true penetration (see [CHANGELOG](CHANGELOG.md) for the war story), Quake-style air acceleration.
+- **Physics** — swept AABB, axis-separated resolution requiring true penetration (see [CHANGELOG](CHANGELOG.md) for the whole story), Quake-style air acceleration.
 - **Audio** — Web Audio synthesis only: layered noise/oscillator gunshots, procedural impulse-response reverb, TTS announcer, generative synthwave.
 
 ## 🧪 Verification tools
@@ -97,7 +97,7 @@ npm run physics   # 9 collision regression tests on the real moveBody/resolveAxi
 
 - [three.js](https://threejs.org/) (MIT) — loaded from cdnjs
 - Wilhelm scream — streamed at runtime from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wilhelm_Scream.ogg); a synthesized fallback plays offline
-- Everything else — geometry, audio, music — is generated in code
+- Everything else (incl. geometry, audio, music) is generated in code [subject to change]
 
 ## 📄 License
 
