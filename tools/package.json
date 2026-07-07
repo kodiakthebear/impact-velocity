@@ -1,0 +1,15 @@
+{
+  "name": "impact-velocity-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headless verification tools for Impact Velocity: CPU raytrace renders of the live map and physics regression tests, both extracted from ../index.html at runtime.",
+  "scripts": {
+    "render": "node rendercheck.js",
+    "physics": "node physcheck.js",
+    "verify": "node rendercheck.js && node physcheck.js"
+  },
+  "dependencies": {
+    "three": "0.128.0",
+    "pngjs": "^7.0.0"
+  }
+}
