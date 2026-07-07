@@ -1,8 +1,8 @@
 <div align="center">
 
-# IMPACT VELOCITY
+# ⚡ IMPACT//VELOCITY
 
-**A kinetic browser FPS in a single HTML file.**
+**A kinetic browser FPS in a single HTML file. No build step. No assets. No engine.**
 
 [![Play](https://img.shields.io/badge/▶_PLAY-kodiakthebear.github.io-ff2b6d?style=for-the-badge)](https://kodiakthebear.github.io/impact-velocity/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3b82ff.svg?style=for-the-badge)](LICENSE)
@@ -12,7 +12,7 @@
 ![Web Audio](https://img.shields.io/badge/audio-100%25_synthesized-8a2be2)
 ![Status](https://img.shields.io/badge/status-playable_prototype-00c853)
 
-*Titanfall-inspired movement · CoD-style Killstreaks*
+*Titanfall-inspired movement · CoD-style killstreaks · cyberpunk night yard · everything procedural*
 
 </div>
 
@@ -20,7 +20,7 @@
 
 ## 🎮 Play it
 
-**[kodiakthebear.github.io/impact-velocity](https://kodiakthebear.github.io/impact-velocity/)** — or download `index.html` and open it in Chrome/Firefox. Pointer lock needs a real browser tab (not an embedded preview). [LINK NOT OPERATIONAL AS OF YET]
+**[kodiakthebear.github.io/impact-velocity](https://kodiakthebear.github.io/impact-velocity/)** — or download `index.html` and open it in Chrome/Firefox. Pointer lock needs a real browser tab (not an embedded preview).
 
 ## ✨ What's in the box
 
@@ -92,7 +92,6 @@ npm run physics   # 9 collision regression tests on the real moveBody/resolveAxi
 - [ ] Real online FFA / TDM
 - [ ] Second map + killcam + match stats
 - [ ] Controller support
-- [ ] Wave-based solo survival mode
 
 ## 🙏 Credits
 
