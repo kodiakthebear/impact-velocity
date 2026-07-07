@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ IMPACT//VELOCITY
+# IMPACT VELOCITY
 
 **A kinetic browser FPS in a single HTML file. No build step. No assets. No engine.**
 
@@ -12,7 +12,7 @@
 ![Web Audio](https://img.shields.io/badge/audio-100%25_synthesized-8a2be2)
 ![Status](https://img.shields.io/badge/status-playable_prototype-00c853)
 
-*Titanfall-inspired movement · CoD-style killstreaks · cyberpunk night yard · everything procedural*
+*Titanfall-inspired movement · CoD-style killstreaks*
 
 </div>
 
