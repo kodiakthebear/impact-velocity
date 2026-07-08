@@ -31,8 +31,9 @@
   |:------:|--------|
   | 3 | 🪝 **Grapple Hook** — pendulum physics, permanent until death |
   | 5 | 📡 **UAV** — live minimap, all hostiles marked |
-  | 10 | 🤠 **Gunslinger** `[G]` — one-shot six-shooter · 🔥 **Rain Hell** `[H]` — napalm on the whole map |
-  | 15 | ⚔️ **SABRE SURPRISE** — 60s of wall-running, wall-jumps and a pulsing one-hit katana. +5s per kill. |
+  | 10 | 🤠 **Gunslinger** `[G]` — one-shot six-shooter · 🔥 |
+  | 15 |  **Rain Hell** `[H]` — napalm on the whole map |
+  | 20 | ⚔️ **SABRE SURPRISE** — 60s of wall-running, wall-jumps and a pulsing one-hit katana. +5s per kill. |
 
 - **The arsenal**
 
