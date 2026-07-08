@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.5.1
+- **Fixed the killstreak ladder to give Gunslinger at 15 and Sabre Surprise at 20**
+
 ## v0.5
 - **Fixed the map-ejection bug.** Standing contact with the floor was treated as
   intersection by the collision resolver, which then "resolved" bodies out through
