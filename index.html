@@ -111,8 +111,8 @@ th{color:#777;font-size:11px;letter-spacing:3px}
     <div class="ctl">
       WASD move · SHIFT sprint · SPACE jump · C slide · Q dash · RMB aim · R reload<br>
       <span class="blue">[E] grapple</span> after 3 streak · <span class="blue">[UAV]</span> at 5 ·
-      <span class="red">[G] gunslinger</span> + <span class="red">[H] rain hell</span> at 10 ·
-      <span class="red">SABRE SURPRISE</span> at 15 (wallrun + walljump + katana)
+      <span class="red">[G] gunslinger</span> at 10 · <span class="red">[H] rain hell</span> at 15 ·
+      <span class="red">SABRE SURPRISE</span> at 20 (wallrun + walljump + katana)
     </div>
   </div>
 </div>
@@ -1486,12 +1486,12 @@ function checkStreakRewards(k){
   if(k===3){ grappleHave=true; earn('GRAPPLE HOOK','grapple hook'); }
   if(k===5){ uavOn=true; $('mmWrap').style.display='block'; earn('UAV ONLINE','U A V'); }
   if(k===10){
-    gunslinger.have=true; gunslinger.ammo=6; inv.six.ammo=6; rainCharges=1;
-    whistleSting(); announceBig('GUNSLINGER + RAIN HELL');
+    gunslinger.have=true; gunslinger.ammo=6; inv.six.ammo=6;
+    whistleSting(); announceBig('GUNSLINGER');
     setTimeout(function(){speak('You just earned gunslinger');},900);
-    setTimeout(function(){speak('You just earned rain hell');},2900);
   }
-  if(k===15)startSabre();
+  if(k===15){ rainCharges=1; earn('RAIN HELL','rain hell'); }
+  if(k===20)startSabre();
 }
 function startSabre(){
   if(sabre.active){sabre.t=Math.max(sabre.t,60);return;}
@@ -1646,7 +1646,7 @@ function hudUpdate(dt){
   }
   var st='';
   if(P.streak>0){
-    var nxt=P.streak<3?[3,'GRAPPLE']:P.streak<5?[5,'UAV']:P.streak<10?[10,'GUNSLINGER + RAIN HELL']:P.streak<15?[15,'SABRE SURPRISE']:null;
+    var nxt=P.streak<3?[3,'GRAPPLE']:P.streak<5?[5,'UAV']:P.streak<10?[10,'GUNSLINGER']:P.streak<15?[15,'RAIN HELL']:P.streak<20?[20,'SABRE SURPRISE']:null;
     st='◈ STREAK '+P.streak+(nxt?' — '+nxt[1]+' IN '+(nxt[0]-P.streak):' — MAXED');
   }
   $('streakM').textContent=st;
